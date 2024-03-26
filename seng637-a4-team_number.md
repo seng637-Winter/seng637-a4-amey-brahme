@@ -46,6 +46,9 @@ Shop Smart Canada
 | Test 1 | Search_Functionality_Check | The search field was tested to see if correct results are shown for a serach input. | Behaves as expected | 
 | Test 2 | Navigation_Functionality_Check | The primary and secondary links on the nagivations bar were checked to see their link is right. | Primary links on the nagivation bar works fine. When a secondary link is clicked, it works on the website but fails while testing |
 | Test 3 | SignUp_Verification | Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue rather than just reply on RegEx |
+
+
+
 Verify that user successful registration message is displayed. It ran correctly the first time, now the says the user is already registered. Add assertion to make sure registration page is open, add verify to check if the sign up is successful or not. This test will show as failed only because the user profile has already been created and creating same profile is not allowed. So it does not go to the confirmation page at the end. 
 Test 4: Shopping Cart: Navigated from home page to baggage section and added a bag to cart. No issues found in that. 
 
