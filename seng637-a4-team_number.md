@@ -37,6 +37,13 @@ Then some basic features of other two wensites were also checked.
 3. Check if the app functions as expected
 4. Output test results
 
+Test 1: Search: Everything works, 
+Test 2: Navigation: When a sub link is clicked taht works on the website but fails while testing 
+Test 3: SignUp_Verification: Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue. 
+Verify that user successful registration message is displayed. It ran correctly the first time, now the says the user is already registered. Add assertion to make sure registration page is open, add verify to check if the sign up is successful or not. 
+Test 4: Login: 
+
+
 # Explain the use of assertions and checkpoints
 We need check points to verify control data, validate contents and compare expected output. 
 Checkpoints were used to check if the correct price is diplayed, correct name is displayed upon login, cart shows expected items.
