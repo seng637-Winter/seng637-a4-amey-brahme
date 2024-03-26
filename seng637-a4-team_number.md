@@ -61,9 +61,12 @@ Shop Smart Canada
 In our quality assurance testing approach, we implement a systematic methodology centered around checkpoints to verify control data, validate content, and compare expected outputs within our system. We categorize these checkpoints into critical and standard classifications. Critical checkpoints, such as ensuring the accurate display of user information post-login, are rigorously validated using assertion statements. Conversely, standard checkpoints, including the validation of shopping cart contents, employ verification techniques to confirm expected outcomes. Test cases exemplify this approach: for instance, in Test 3, we assert the proper loading of the signup page before validating signup fields and verifying successful account creation. Similarly, Test 5 employs verification to confirm store changes and validate error handling for invalid inputs. Test 8 involves asserting the transition to the correct webpage post-"Check Status" button click, followed by verification of order number handling. Lastly, Test 9 utilizes image-based validation to ensure the consistency of the general layout. By delineating between assert and verify statements, we prioritize critical functionalities while conducting thorough checks across all system functionalities, thereby upholding software quality and reliability.
 
 # how did you test each functionaity with different test data
+
 In Test 1, we conducted tests on the search bar functionality, first using a category provided by ShopSmartCanada and then with a category not within their offerings. In Test 3, we deliberately entered both invalid and valid email addresses to pinpoint any bugs previously reported. Test 8 involved the input of invalid order numbers to scrutinize the order tracking page's handling of such instances. Additionally, in Test 5, we input a location proximate to a Home Depot to verify accurate retrieval of the nearest store and, conversely, a location devoid of Home Depot presence to confirm the absence of store listings for that search.
 
 # How the team work/effort was divided and managed
+
+One person each was assigned to figure out the setup and understand the procedure for both GUI testing and mutation testing. This was then discussed with all the team members. 2 mutations and 2 GUI tests were assigned to each of the 5 memebers to complete. The results were then compiled and each person wrote their part of the report. 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
