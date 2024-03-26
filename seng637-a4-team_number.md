@@ -46,14 +46,15 @@ Shop Smart Canada
 |-------------|-------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------|----------|
 | Test 1      | Search_Functionality_Check    | The search field was tested to see if correct results are shown for a search input.   | Behaves as expected                              | Shop Smart Canada Page |
 | Test 2      | Navigation_Functionality_Check| The primary and secondary links on the navigation bar were checked to see their link is right. | Primary links on the navigation bar work fine. When a secondary link is clicked, it works on the website but fails while testing. | Shop Smart Canada Page |
-| Test 3      | SignUp_Verification           | Sign up using multiple personal details to verify the form works properly.| Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue rather than just reply on RegEx. Verify that user successful registration message is displayed. It ran correctly the first time, now the says the user is already registered. Add assertion to make sure registration page is open, add verify to check if the sign up is successful or not. This test will show as failed only because the user profile has already been created and creating same profile is not allowed. So it does not go to the confirmation page at the end.| Shop Smart Canada Page |
+| Test 3      | SignUp_Verification_Check    | Sign up using multiple personal details to verify the form works properly.| Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue rather than just reply on RegEx. Verify that user successful registration message is displayed. It ran correctly the first time, now the says the user is already registered. Add assertion to make sure registration page is open, add verify to check if the sign up is successful or not. This test will show as failed only because the user profile has already been created and creating same profile is not allowed. So it does not go to the confirmation page at the end.| Shop Smart Canada Page |
 | Test 4 | Shopping Cart | Navigated from home page to baggage section and added a bag to cart. | No issues found | Shop Smart Canada Page |
 
-Home Depot
-Test 1: Change My Store Location: Search location closer to a actual store and expect a value and then check for a value where no Home Depot store exists and see if it shows 0 stores. 
-Test 2: Using popular menu to check nagivate to a category and adding to cart 
-Test 3: Go go services page and use the Home Depot logo to nagivate back to Home page. 
-Test 4: Order status check: We didn't have a order with Home Depot to check correct order number, but a check ofr incorrect order number being searched was made. Assertion for opening new window was used and verification of error message was used. 
+| Test 5 | Change_MyStore_Location_Functinoality_Check | Search location closer to a actual store and expect a value and then check for a value where no Home Depot store exists and see if it shows 0 stores | No issues found | 
+| Test 6 | Cart using Popular Categories | Using popular menu to check nagivation to a category and adding to cart | No issues found | 
+| Test 7 | HomePage_Navigation_Functinoality_Check | Go go services page and use the Home Depot logo to nagivate back to Home page. | No issues found | 
+| Test 8 | Order status check | We didn't have a order with Home Depot to check correct order number, but a check ofr incorrect order number being searched was made. Assertion for opening new window was used and verification of error message was used. | No issues found |
+|Test 9 | | | |
+|Test 10 | | | |
 
 # Explain the use of assertions and checkpoints
 We need check points to verify control data, validate contents and compare expected output. 
