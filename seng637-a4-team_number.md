@@ -37,11 +37,16 @@ Then some basic features of other two wensites were also checked.
 3. Check if the app functions as expected
 4. Output test results
 
+Shop Smart Canada
 Test 1: Search: Everything works, 
 Test 2: Navigation: When a sub link is clicked taht works on the website but fails while testing 
 Test 3: SignUp_Verification: Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue. 
 Verify that user successful registration message is displayed. It ran correctly the first time, now the says the user is already registered. Add assertion to make sure registration page is open, add verify to check if the sign up is successful or not. This test will show as failed only because the user profile has already been created and creating same profile is not allowed. So it does not go to the confirmation page at the end. 
-Test 4: Login: 
+Test 4: Shopping Cart: Navigated from home page to baggage section and added a bag to cart. No issues found in that. 
+
+Home Depot
+Test 1: Change My Store Location: Search location closer to a actual store and expect a value and then check for a value where no Home Depot store exists and see if it shows 0 stores. 
+Test 2: 
 
 
 # Explain the use of assertions and checkpoints
