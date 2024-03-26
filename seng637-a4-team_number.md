@@ -42,7 +42,7 @@ Some basic features used for all three websites were:
 
 Shop Smart Canada
 
-| Test Number | Test Title                    | Test Description                                                                      | Test Results                                      | WebSite | 
+| Test Number | Test Title | Test Description                                                                      | Test Results                                      | WebSite | 
 |-------------|-------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------|----------|
 | Test 1      | Search_Functionality_Check    | The search field was tested to see if correct results are shown for a search input.   | Behaves as expected                              | Shop Smart Canada Page |
 | Test 2      | Navigation_Functionality_Check| The primary and secondary links on the navigation bar were checked to see their link is right. | Primary links on the navigation bar work fine. When a secondary link is clicked, it works on the website but fails while testing. | Shop Smart Canada Page |
