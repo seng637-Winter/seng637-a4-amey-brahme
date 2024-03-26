@@ -42,7 +42,7 @@ Some basic features used for all three websites were:
 
 Shop Smart Canada
 |Test Number | Test Title | Test Description | Test Results | 
-_________________________________________________________________
+------------------------------------------------------------------
 | Test 1 | Search_Functionality_Check | The search field was tested to see if correct results are shown for a serach input. | Behaves as expected | 
 | Test 2 | Navigation_Functionality_Check | The primary and secondary links on the nagivations bar were checked to see their link is right. | Primary links on the nagivation bar works fine. When a secondary link is clicked, it works on the website but fails while testing |
 | Test 3 | SignUp_Verification | Accepts correct info but also accepts incorrect info. I was able to sign up using xyz@abc.com and 000-000-0000 phone number. It should send a verification link to the registered email to overcome this issue rather than just reply on RegEx |
