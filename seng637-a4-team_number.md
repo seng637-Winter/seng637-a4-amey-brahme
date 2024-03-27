@@ -53,8 +53,10 @@ Shop Smart Canada
 | Test 7 | HomePage_Navigation_Functinoality_Check | Go go services page and use the Home Depot logo to nagivate back to Home page. | No issues found | Home Depot Page |
 | Test 8 | Order_Status_Funcationality_Check | We didn't have a order with Home Depot to check correct order number, but a check for incorrect order number being searched was made. Assertion for opening new window was used and verification of error message was used. | No issues found | Home Depot Page |
 | Test 9 | Layout_Check | Check for images on key positions to ensure layout is as expected | No issues to report | Home Depot Page |
-|Test 10 | | | | Leon's Page |
-|Test 11 | | | | Leon's Page |
+|Test 10 | Flyer_WishList_Functional_Check | Use the flyer to add items to wish list | No issues to report | Leon's Page |
+|Test 11 | ContactUs_Form_Functional_Check |  Contact the help desk usng Contact us form | The contact us form uses catcha so testing might run into issues | Leon's Page |
+|Test 12 | Search_CheckOut_Functional_Check | Using Search bar for adding items to checkout cart | No issues to report | Leon's Page |
+|Test 13 | Flyer_Checkout_Functionality_Check | Use the flyer to add items to cehckout cart  | No issues to report | Leon's Page |
 
 # Explain the use of assertions and checkpoints
 
